@@ -21,9 +21,9 @@
 title: 파푸리카의 개발 블로그
 email: papooo.dev@gmail.com
 source: docs
-description: _site
-# description: >- # this means to ignore newlines until "baseurl:"
-#   파푸리카의 개발 블로그입니다 :)
+# description: _site
+description: >- # this means to ignore newlines until "baseurl:"
+  파푸리카의 개발 블로그입니다 :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
