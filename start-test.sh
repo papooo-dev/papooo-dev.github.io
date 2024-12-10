@@ -1,2 +1,2 @@
-bundle install
-bundle exec jekyll serve --source ./docs
+cd docs
+bundle exec jekyll serve
