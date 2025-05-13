@@ -1,7 +1,7 @@
 ---
 title: "⚡OpenAI LLM에 CAG(Cache-Augmented Generation) 적용기: RAG와 무엇이 달랐을까?"
 categories: [AI, Trend]
-tags: []
+tags: [OpenAI, CAG, RAG, LLM, Prompt-Caching, 성능최적화, AI 어플리케이션]
 ---
 [지난 포스팅](https://papooo-dev.github.io/posts/CAG_vs_KAG/)에서 LLM 기반 어플리케이션에서 지식 베이스 활용 방법으로 RAG와 RAG의 대체 방법인 CAG, KAG에 대해 알아본 적이 있습니다.
 
