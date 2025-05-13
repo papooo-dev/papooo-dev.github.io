@@ -39,8 +39,9 @@ tags: [OpenAI, CAG, RAG, LLM, Prompt-Caching, 성능최적화, AI 어플리케�
 _일반적인 RAG 방식과 CAG 방식 비교_
 
 
-
 ### 프롬프트 구성 방식
+
+![Image]({{"/assets/diagram/prompt_construction.drawio.svg" | relative_url }})
 
 | 방식    | system prompt                                                | chat history       | user prompt |
 | ------- | ------------------------------------------------------------ | ------------------ | ----------- |
@@ -52,7 +53,6 @@ _일반적인 RAG 방식과 CAG 방식 비교_
   - 프롬프트 캐싱은 토큰의 첫 토큰 1024 token 부터 확인하기 때문에 앞 부분이 최대한 동일하게 해야 프롬프트 캐싱을 최대로 사용할 수 있습니다.
 - **System Prompt에 전체 Knowledge Base 문서 추가**
   - 기존 RAG 방식은 Knowledge Base 문서로부터 Retriver 후 Context를 추출하였으나, 그 과정을 제거하기 위해 시스템 프롬프트에 전체 문서를 할당하였습니다.
-
 
 
 ### OpenAI의 Prompt Caching 기능
